@@ -14,8 +14,4 @@ public class Printer {
         return printable.print(text);
     }
 
-    public void setPrintable(IPrintable printable){
-        this.printable = printable;
-    }
-
 }
