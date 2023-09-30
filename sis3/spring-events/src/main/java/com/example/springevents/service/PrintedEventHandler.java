@@ -14,10 +14,10 @@ public class PrintedEventHandler {
 
     @EventListener
     @Async
-    public void process(PrintedEvent event) {
+    public void process(PrintedEvent event) throws InterruptedException {
         PrintedEvent printedEvent = new PrintedEvent();
         printedEvent.setMessage(printedEvent.getMessage());
-        log.info(event.getMessage());
+        log.info("message: " + event.getMessage());
     }
 
 }

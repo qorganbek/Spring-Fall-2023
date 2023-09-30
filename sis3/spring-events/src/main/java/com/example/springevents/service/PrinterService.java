@@ -14,7 +14,7 @@ public class PrinterService {
 
     public String print(String message) {
         log.info("printer service: " + message);
-        log.info(Thread.currentThread().getName());
+        log.info("Thread name " + Thread.currentThread().getName());
 
         PrintedEvent printedEvent = new PrintedEvent();
         printedEvent.setMessage("Hello, Wordl!");

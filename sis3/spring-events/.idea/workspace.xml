@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9b497d-842e-474b-89d3-b4a479523e3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../sis2/spring-events/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sis2/spring-events/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springevents/SpringEventsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springevents/SpringEventsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springevents/service/PrintedEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springevents/service/PrintedEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springevents/service/PrinterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springevents/service/PrinterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springevents/SpringEventsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springevents/SpringEventsApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springevents/service/PrintedEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springevents/service/PrintedEventHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springevents/service/PrinterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springevents/service/PrinterService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +64,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,7 +88,8 @@
       <workItem from="1696014973840" duration="1325000" />
       <workItem from="1696050217069" duration="70000" />
       <workItem from="1696050395590" duration="1756000" />
-      <workItem from="1696052303343" duration="656000" />
+      <workItem from="1696052303343" duration="997000" />
+      <workItem from="1696053526320" duration="2341000" />
     </task>
     <servers />
   </component>
