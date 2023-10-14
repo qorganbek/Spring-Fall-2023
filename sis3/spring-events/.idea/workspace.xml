@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9b497d-842e-474b-89d3-b4a479523e3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../SampleDB/SampleDB/src/main/java/com/example/sampledb/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleDB/SampleDB/src/main/java/com/example/sampledb/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SampleDB/SampleDB/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleDB/SampleDB/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sis2/consumingrest/src/main/java/com/example/consumingrest/ConsumingrestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sis2/consumingrest/src/main/java/com/example/consumingrest/ConsumingrestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sis2/quoters/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../sis2/quoters/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sis2/spring-events/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sis2/spring-events/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springevents/SpringEventsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springevents/SpringEventsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springevents/config/PrinterThread.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springevents/service/PrintedEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springevents/service/PrintedEventHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springevents/service/PrinterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springevents/service/PrinterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springevents/SpringEventsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springevents/SpringEventsApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springevents/service/PrintedEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springevents/service/PrintedEventHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springevents/service/PrinterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springevents/service/PrinterService.class" afterDir="false" />
     </list>
@@ -48,26 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/dima/Desktop/Study/Fall2023/Spring/sis3/spring-events",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dima/Desktop/Study/Fall2023/Spring/sis3/spring-events&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="SpringEventsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-events" />
@@ -90,6 +92,14 @@
       <workItem from="1696050395590" duration="1756000" />
       <workItem from="1696052303343" duration="997000" />
       <workItem from="1696053526320" duration="2341000" />
+      <workItem from="1696055966886" duration="237000" />
+      <workItem from="1696056829848" duration="292000" />
+      <workItem from="1696057368186" duration="191000" />
+      <workItem from="1696057681293" duration="164000" />
+      <workItem from="1696058185702" duration="131000" />
+      <workItem from="1696059056963" duration="108000" />
+      <workItem from="1696659819405" duration="101000" />
+      <workItem from="1697256379477" duration="530000" />
     </task>
     <servers />
   </component>

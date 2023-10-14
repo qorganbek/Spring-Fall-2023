@@ -17,6 +17,7 @@ public class PrintedEventHandler {
     public void process(PrintedEvent event) throws InterruptedException {
         PrintedEvent printedEvent = new PrintedEvent();
         printedEvent.setMessage(printedEvent.getMessage());
+        Thread.sleep(10000);
         log.info("message: " + event.getMessage());
     }
 
