@@ -68,4 +68,24 @@ class SoapApplicationTests {
                 + port + "/ws", request) == null);
     }
 
+    @Test
+    public void testSendAndReceive5() {
+        WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+        GetCountryRequest request = new GetCountryRequest();
+        request.setName("France");
+
+        assertThat(ws.marshalSendAndReceive("http://localhost:"
+                + port + "/ws", request) == null);
+    }
+
+    @Test
+    public void testSendAndReceive6() {
+        WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+        GetCountryRequest request = new GetCountryRequest();
+        request.setName("China");
+
+        assertThat(ws.marshalSendAndReceive("http://localhost:"
+                + port + "/ws", request) == null);
+    }
+
 }
