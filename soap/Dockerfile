@@ -12,6 +12,10 @@ WORKDIR /app
 
 COPY --from=builder /app/target/soap-0.0.1-SNAPSHOT.jar .
 
-EXPOSE 8080
+ARG PORT=8080
 
-CMD ["java", "-jar", "soap-0.0.1-SNAPSHOT.jar"]
+ENV PORT=${PORT}
+
+EXPOSE ${PORT}
+
+CMD ["java", "-jar", "soap-0.0.1-SNAPSHOT.jar", "--server.port=${PORT}"]
