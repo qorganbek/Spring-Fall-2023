@@ -71,7 +71,7 @@
                 <configuration>
                     <packageName>com.example.consumingwebservice.wsdl</packageName>
                     <wsdlUrls>
-                        <wsdlUrl>http://localhost:8080/ws/countries.wsdl</wsdlUrl>
+                        <wsdlUrl>http://172.17.0.3:7001/ws/countries.wsdl</wsdlUrl>
                     </wsdlUrls>
                     <sourceDestDir>${sourcesDir}</sourceDestDir>
                     <destDir>${classesDir}</destDir>
